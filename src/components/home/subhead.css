@@ -1,0 +1,41 @@
+.subhead {
+  width: 100vw;
+  height: 300px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+.salad-image {
+  height: 300px;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.day-item {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+.sub-view-menu {
+  background: transparent;
+  color: white;
+  padding: 5px;
+  border: 1px solid white;
+  margin-top: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.sub-view-menu:hover {
+  background-color: black;
+  color: white;
+}

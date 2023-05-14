@@ -1,0 +1,98 @@
+.order-background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 111;
+  background-color: rgba(200, 200, 200);
+}
+
+.order-modal {
+  /* width: 300px; */
+  /* height: 300px; */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.close {
+  margin-left: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.order-info {
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.order-info img {
+  width: 340px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.order-form {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+label {
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  height: 20px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+
+.order-cancel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.order {
+  width: 100px;
+  height: 25px;
+  border: none;
+  background-color: green;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel {
+  width: 100px;
+  height: 25px;
+  border: none;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
